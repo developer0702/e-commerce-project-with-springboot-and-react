@@ -38,13 +38,13 @@ public class Product {
 	private String description;
 
 	@Column(name = "price")
-	private String price;
+	private int price;
 
 	@Column(name = "discount_price")
-	private String discountPrice;
+	private int discountedPrice;
 
 	@Column(name = "discount_percent")
-	private String discountPercent;
+	private int discountPercent;
 
 	@Column(name = "quantity")
 	private int quantity;
